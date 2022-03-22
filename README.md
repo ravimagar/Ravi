@@ -1,2 +1,2 @@
-# DigitalPartner By Ganesh Jadhav
+# Automation By Ganesh Jadhav
 Institution
