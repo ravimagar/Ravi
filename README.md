@@ -1,2 +1,2 @@
-# DigitalPartner
+# DigitalPartner By Ganesh Jadhav
 Institution
