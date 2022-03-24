@@ -7,18 +7,18 @@ public class Dog extends Animal {
         super();
     }
 
-    void eat() {
-        System.out.println("eating bread...");
-    }
-
-    void bark() {
-        System.out.println("barking...");
-    }
-
-    void work() {
-        super.eat();
-        bark();
-    }
+//    void eat() {
+//        System.out.println("eating bread...");
+//    }
+//
+//    void bark() {
+//        System.out.println("barking...");
+//    }
+//
+//    void work() {
+//        super.eat();
+//        bark();
+//    }
 
         void printColor () {
             System.out.println(color);//prints color of Dog class

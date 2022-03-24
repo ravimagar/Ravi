@@ -1,9 +1,7 @@
 package com.company.superkeyword;
 
-public class TestSuper1 {
+public class SuperKeywordInvokeParentConstructor {
     public static void main(String args[]) {
         Dog d = new Dog();
-        d.printColor();
-//        d.work();
     }
 }
