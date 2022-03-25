@@ -2,6 +2,7 @@ package com.company.encapsulation;
 
 public class TestEncapsulation {
     public static void main(String[] args) {
+
         //creating instance of Account class
         Account acc = new Account();
         //setting values through setter methods
@@ -12,4 +13,4 @@ public class TestEncapsulation {
         //getting values through getter methods
         System.out.println(acc.getAcc_no() + " " + acc.getName() + " " + acc.getEmail() + " " + acc.getAmount());
     }
-}  
+}

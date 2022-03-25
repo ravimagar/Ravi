@@ -7,6 +7,7 @@ public class Animal {
     }
 
     String color = "white";
+    String temp = "Digital";
 
     void eat() {
         System.out.println("eating...");
