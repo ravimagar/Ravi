@@ -1,7 +1,11 @@
 package com.company.finalkeyword;
 
 public class Bike {
-    final int speedLimit=90;//final variable
+    final int speedLimit;//final variable
+    int b = 10;
+    Bike(){
+        speedLimit = 20;
+    }
     int i = 10;
     void run() {
 //        speedLimit = 400;

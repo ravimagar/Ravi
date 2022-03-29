@@ -1,6 +1,7 @@
 package com.company.abstraction;
 
 public class Hero extends Bike{
+
     Hero(int b){
         super(b);
         System.out.println("Test");
@@ -10,7 +11,9 @@ public class Hero extends Bike{
     }
 
     public static void main(String[] args) {
-        Hero b = new Hero(10);
+        Hero b = new Hero(300);
         b.run();
     }
+
+
 }
