@@ -6,6 +6,7 @@ public class WhileExample {
         while (i <= 10) {
             System.out.println(i);
             i++;
+            break;
         }
     }
 }

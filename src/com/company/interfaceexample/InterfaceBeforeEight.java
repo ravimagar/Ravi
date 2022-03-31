@@ -8,4 +8,6 @@ public interface InterfaceBeforeEight {
 
     int i = 10;
     void print();
+
+
 }
