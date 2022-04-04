@@ -10,7 +10,7 @@ public class CompareToExample {
     public static void main(String args[]) {
         CompareToExample ce = new CompareToExample();
         System.out.println(ce.s1.compareTo(ce.s2));//0 because both are equal
-        System.out.println(ce.s1.compareTo(ce.s3));//-5 because "h" is 5 times lower than "m"
+        System.out.println(ce.s3.compareTo(ce.s1));//-5 because "h" is 5 times lower than "m"
         System.out.println(ce.s1.compareTo(ce.s4));//-1 because "l" is 1 times lower than "m"
         System.out.println(ce.s1.compareTo(ce.s5));//2 because "h" is 2 times greater than "f"
     }
