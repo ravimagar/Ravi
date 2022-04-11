@@ -7,6 +7,7 @@ public class ArithmeticExceptions {
             int data = 100 / 0;
         } catch (Exception e) {
             System.out.println(e);
+            System.out.println("Hiiiiiiiiiiiiiii");
         }
         System.out.println("rest of the code...");
     }

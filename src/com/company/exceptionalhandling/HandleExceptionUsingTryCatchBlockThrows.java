@@ -3,8 +3,9 @@ package com.company.exceptionalhandling;
 import java.io.IOException;
 
 public class HandleExceptionUsingTryCatchBlockThrows {
-    void method() throws IOException {
-        throw new IOException("device error");
+    void method() throws ArithmeticException {
+        System.out.println(10/0);
+        throw new ArithmeticException("device error");
     }
 }
 

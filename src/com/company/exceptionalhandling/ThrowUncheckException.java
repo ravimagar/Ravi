@@ -14,4 +14,6 @@ public class ThrowUncheckException {
         validate(13);
         System.out.println("rest of the code...");
     }
+
+
 }

@@ -48,14 +48,19 @@ public class OperatorsLearning {
 
             // numbers using ternary operator
             // ?:
-            int max = (a < b) ? a : b;
+
+//            int a = 5;
+//            int b = 7;
+//            int c = 10;
+//            int d = 9;
+            int max = (a > b) ? a : b;
             System.out.println("minimum is = " + max);
 
-            if (a >= b || c <= d) {
-                System.out.println("&& got success");
-            } else {
-                System.out.println("&& Condition got fail");
-            }
+//            if (a >= b || c <= d) {
+//                System.out.println("&& got success");
+//            } else {
+//                System.out.println("&& Condition got fail");
+//            }
         }
     }
 }

@@ -3,7 +3,10 @@ package com.company.exceptionalhandling;
 public class Test5 {
     public static void main(String[] args) {
         try {
-            //        System.out.println("Arithmatic " + (10 / 0));
+            String s = null;
+            System.out.println(10/0);
+            System.out.println(10/0);
+            System.out.println(s.charAt(0));
         } finally {
 
         }
