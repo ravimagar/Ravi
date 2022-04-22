@@ -5,32 +5,22 @@ public class Dog extends Animal {
 
     Dog(){
         super();
-        System.out.println("Test");
+        System.out.println("Hi");
     }
 
     void eat() {
-        System.out.println("eating bread...");
+        System.out.println("eating child class...");
     }
-//
-//    void bark() {
-//        System.out.println("barking...");
-//    }
-//
-    void work() {
-        eat();
+
+    void printColor(){
         super.eat();
-//        bark();
+        System.out.println(color);
+        System.out.println(super.color);
     }
 
-        void printColor () {
-            System.out.println(color);//prints color of Dog class
-            System.out.println(temp);//prints color of Dog class
-            System.out.println(super.color);//prints color of Animal class
+        public static void main(String[] args){
+            Dog d = new Dog();
+            d.printColor();
+            System.out.println(d.color);
         }
-
-    public static void main(String[] args) {
-        Dog d = new Dog();
-//        d.printColor();
-//        d.work();
-    }
     }

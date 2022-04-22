@@ -12,6 +12,10 @@ public class IntegralLiterals {
         int d = 0b111;
         char ch2 = '\n';
 
+        float ff = 12.5f;
+        double dd = 13.5;
+        char ch3  = 97;
+
         String s = "ganesh";
         String s1 = "digital";
         char ch = 'g';
@@ -20,15 +24,15 @@ public class IntegralLiterals {
         boolean t = false;
         System.out.println(e);
 
-//        System.out.println(a);
-//        System.out.println(b);
-//        System.out.println(c);
-//        System.out.println(d);
-//        System.out.println(e);
-//        System.out.println(ch2);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(ch2);
 
-//        System.out.println(s);
-//        System.out.println(s1);
-//        System.out.println("\t" +"backslash literal");
+        System.out.println(s);
+        System.out.println(s1);
+        System.out.println("\t" +"backslash literal");
     }
 }

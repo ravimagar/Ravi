@@ -5,6 +5,15 @@ public class Dog extends Animal{
         System.out.println("barking...");
     }
 
+    void speak(){
+        System.out.println("Dog is speaking");
+    }
+
+    void eat()
+    {
+        System.out.println("eating...");
+    }
+
     public static void main(String[] args) {
         Dog d = new Dog();
         d.eat();

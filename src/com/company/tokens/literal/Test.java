@@ -1,18 +1,19 @@
 package com.company.tokens.literal;
 
+import com.company.inheritance.C;
+
 public class Test {
     public static void main(String[] args) {
-        int b = 20, c= 20;   //This is my comments
-        String s1 = "Ganesh";
-        String s2 = "Jadhav";
-        String s3 = "Ganesh";
-        String s4 = new String("Digital");
-        String s5 = new String("Digital");
-        System.out.println(b==c);
-        System.out.println(s1.equals(s3));
-        System.out.println(s4==s5);
-        System.out.println(s1==s3);
-        System.out.println(s4.equals(s5));
-        System.out.println("He said \"Java is fun unlimited");
+        int a = 10;
+        int b = 20;
+        int c = 20;
+
+        System.out.println(c<b);
+        System.out.println(c>b);
+        System.out.println(c<=b);
+        System.out.println(c>=b);
+        System.out.println(c!=b);
+        System.out.println(c==b);
+
     }
 }

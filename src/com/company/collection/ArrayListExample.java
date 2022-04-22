@@ -12,11 +12,11 @@ public class ArrayListExample {
 
         // Appending new elements at
         // the end of the list
-        for (int i = 1; i <= 5; i++) {
-            al.add(i);
-        }
-        // Printing elements
-        System.out.println(al);
+//        for (int i = 1; i <= 5; i++) {
+//            al.add(i);
+//        }
+//        // Printing elements
+//        System.out.println(al);
 
         // Remove element at index 3
         al.add("Digital");
@@ -25,15 +25,19 @@ public class ArrayListExample {
         al.add("very");
         al.add("good");
         al.add("Institute we have");
-        al.remove(3);
+//        al.remove(3);
 
         // Displaying the ArrayList
         // after deletion
-        System.out.println(al);
+//        System.out.println(al);
 
         // Printing elements one by one
         for (int i = 0; i < al.size(); i++) {
-            System.out.print(al.get(i) + " ");
+            System.out.println(al.get(i) + " ");
         }
+
+        al.clear();
+        System.out.println("clear all data " + al);
+        System.out.println(al.isEmpty());
     }
 }

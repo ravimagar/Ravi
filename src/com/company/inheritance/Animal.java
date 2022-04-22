@@ -1,6 +1,9 @@
 package com.company.inheritance;
 
 public class Animal {
+
+    int a = 10;
+
     void eat()
     {
         System.out.println("eating...");

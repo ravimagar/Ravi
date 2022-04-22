@@ -1,10 +1,10 @@
 package com.company.casting;
 
-public class Child extends Parent {
-    int id;
+public class Child  {
+    int a;
 
-    @Override
-    void method() {
-        System.out.println("Method from Child");
+
+    public static void main(String[] args) {
+//        Parent p4 = new Parent();
     }
 }

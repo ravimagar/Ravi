@@ -1,16 +1,22 @@
 package com.company.encapsulation;
 
 public class Test {
-    public static void main(String[] args) {
-//creating instance of the encapsulated class
-        Student s = new Student();
+    private int a = 10;
+    private String s = "ganesh";
+    private int c;
+    private String studentName;
 
-
-
-//setting value in the name member
-        s.setName("vijay");
-
-//getting value of the name member
-        System.out.println(s.getName());
+    public int getIntegerValue(){
+        return a;
     }
+
+    public String getStringMethod(){
+        return s;
+    }
+
+    public void setName(String name){
+        this.studentName = name;
+        System.out.println(studentName);
+    }
+
 }

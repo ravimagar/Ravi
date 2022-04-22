@@ -19,9 +19,11 @@ public class Simple {
         Simple s = new Simple();
         TestDigital td = new TestDigital();
         td.test();
+        System.out.println(td.a);
 //        PrivatConstructor pc = new PrivatConstructor();
         System.out.println(s.CHECK_CHECK);
         ep2.msg();
         s.testTest();
+        ProtectedAccessModifiers p = new ProtectedAccessModifiers();
     }
 }

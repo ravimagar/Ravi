@@ -1,6 +1,6 @@
 package com.company.interfaceexample;
 
-public class Interface2 implements Printable, Showable {
+public class Interface2 {
 
     int a = 50;
     public void print() {

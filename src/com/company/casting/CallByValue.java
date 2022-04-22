@@ -5,7 +5,9 @@ public class CallByValue {
 
     void change(int data) {
         data = data + 100;  //changes will be in the local variable only
+        System.out.println(data);
     }
+
     public static void main(String args[]) {
         CallByValue cv = new CallByValue();
         System.out.println("before change " + cv.data);

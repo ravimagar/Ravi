@@ -1,8 +1,7 @@
 package com.company.constructor;
 
 public class PrivateConstructor {
-
-        private PrivateConstructor() {
+        PrivateConstructor() {
     }
 
     public void display() {

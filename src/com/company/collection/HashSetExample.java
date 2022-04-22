@@ -14,6 +14,9 @@ public class HashSetExample {
         hs.add("very");
         hs.add("good");
         hs.add("Institute we have");
+        hs.add(null);
+        hs.add(null);
+        System.out.println(hs.add("Digital"));
 
         // Traversing elements
         Iterator<String> itr = hs.iterator();

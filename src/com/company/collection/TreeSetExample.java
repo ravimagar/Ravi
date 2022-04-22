@@ -7,7 +7,7 @@ public class TreeSetExample {
     public static void main(String args[]) {
         // Creating TreeSet and
         // adding elements
-        TreeSet<String> ts = new TreeSet<String>();
+        TreeSet ts = new TreeSet();
 
         ts.add("Digital");
         ts.add("Partner");

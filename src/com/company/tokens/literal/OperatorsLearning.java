@@ -56,11 +56,11 @@ public class OperatorsLearning {
             int max = (a > b) ? a : b;
             System.out.println("minimum is = " + max);
 
-//            if (a >= b || c <= d) {
-//                System.out.println("&& got success");
-//            } else {
-//                System.out.println("&& Condition got fail");
-//            }
+            if (a <= b && c <= d) {
+                System.out.println("&& got success");
+            } else {
+                System.out.println("&& Condition got fail");
+            }
         }
     }
 }

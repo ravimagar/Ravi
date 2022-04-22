@@ -9,5 +9,9 @@ public class PrivatConstructor {
     public static void main(String[] args) {
         PrivatConstructor p = new PrivatConstructor();
         System.out.println("  " + p.x);
+
+        TestDigital td = new TestDigital();
+        td.test();
+        System.out.println(td.a);
     }
 }

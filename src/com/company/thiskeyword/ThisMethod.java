@@ -1,6 +1,10 @@
 package com.company.thiskeyword;
 
+import com.company.collection.StackExample;
+import com.company.tokens.literal.StaticExample;
+
 public class ThisMethod {
+   String s;
     ThisMethod(){
         System.out.println("default constructor");
     }
@@ -10,8 +14,17 @@ public class ThisMethod {
         System.out.println("Parameterized Constructor " + x);
     }
 
-    void test(String test){
+    void test(String test) {
         System.out.println("method " + test);
+        this.test1();
+    }
+
+    void addition(int a, int b, int c){
+
+    }
+
+    void test1() {
+        System.out.println("Calling method with the help of this keyword");
     }
 
     public static void main(String[] args) {
@@ -20,5 +33,6 @@ public class ThisMethod {
         tm.test("Digital");
         tm.test("Partner");
         tm.test("Checking");
+        System.out.println(tm.s);
     }
 }

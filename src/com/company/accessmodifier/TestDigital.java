@@ -1,14 +1,17 @@
 package com.company.accessmodifier;
 
-import com.company.array.Test3;
 
-class TestDigital {
+ public class TestDigital {
 
-    void test(){
+     public int a = 10;
+     public void test(){
         System.out.println("helllooo");
     }
+
     public static void main(String[] args) {
         System.out.println("hiiiiii");
-        Test3 t5 = new Test3();
+        TestDigital t5 = new TestDigital();
+        System.out.println(t5.a);
+        t5.test();
     }
 }

@@ -1,5 +1,8 @@
 package com.company.array;
 
+
+import com.company.accessmodifier.TestDigital;
+
 public class Test {
     public static void main(String[] args) {
 //        int [] x = new int [5];
@@ -30,5 +33,8 @@ public class Test {
 
 //        int[] arrray = new int[]{10, 20, 30, 40, 4, 5, 6, 9, 6, 9};
 //        System.out.println(arrray.length);
+        TestDigital td = new TestDigital();
+        td.test();
+        System.out.println(td.a);
     }
 }
