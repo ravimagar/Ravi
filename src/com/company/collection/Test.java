@@ -1,16 +1,18 @@
 package com.company.collection;
 
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.*;
+
 public class Test {
-    public static void main(String args[]) {
-        int a = 10;
-        int b = 10;
-        int[] x = new int[]{10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
-        int[] y = new int[3];
-        y[0] = 10;
-        y[1] = 20;
-        y[2] = 30;
-        for(int i=0; i<=y.length-1; i++){
-            System.out.println(y[i]);
-        }
+    public static void main(String args[]) throws IOException {
+        FileReader file = new FileReader("C:\\Users\\ganesh.jadhav\\OneDrive - Emtec Inc\\Desktop\\publish_events\\MorningBatch.properties");
+        Properties p = new Properties();
+        p.load(file);
+
+        System.out.println(p.getProperty("name"));
+        System.out.println(p.getProperty("Institute"));
+        file.close();
     }
 }

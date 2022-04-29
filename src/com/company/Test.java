@@ -1,24 +1,16 @@
 package com.company;
 
 public class Test {
-
-    int a = 50;
-    static int TEST_NAMING_CONVENTION = 10;
-
-
-    void localMethod(){
-        final int b = 10;
-        int a = 30;
-        System.out.println(a);
-        System.out.println(b);
-    }
-    static void staticMethod(){
-        int a = 10;
-    }
-
     public static void main(String[] args) {
-        Test te = new Test();
-        System.out.println(te.a);
-        te.localMethod();
+        String s = "Ganesh Jadhav";
+        StringBuffer sb = new StringBuffer(s);
+        for(int i=s.length()-1 ; i>=0; i--){
+            if(Character.isUpperCase(s.charAt(i))){
+                sb.setCharAt(i, Character.toLowerCase(s.charAt(i)));
+            }else {
+                sb.setCharAt(i, Character.toUpperCase(s.charAt(i)));
+            }
+            System.out.print(sb.charAt(i));
+        }
     }
 }

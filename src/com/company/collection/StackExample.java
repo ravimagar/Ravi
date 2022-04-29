@@ -10,8 +10,11 @@ public class StackExample {
         stack.push("Ganesh");
         stack.push("Jadhav");
         stack.push("For");
+        stack.push("null");
         stack.push("Digital");
+        stack.push("Ganesh");
         stack.push("Partner");
+        stack.push("null");
 
         // Iterator for the stack
         Iterator<String> itr = stack.iterator();
@@ -20,8 +23,6 @@ public class StackExample {
         while (itr.hasNext()) {
             System.out.print(itr.next() + " ");
         }
-
-        System.out.println();
 
         stack.pop();
 
